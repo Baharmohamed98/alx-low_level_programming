@@ -7,12 +7,12 @@
  * Return: void
  */
 
-void print_rve(char *s)
+void print_rev(char *s)
 
 {
 	int c = 0;
 
-	while (c[c] != '\0')
+	while (s[c] != '\0')
 	{
 	c++;
 	}
