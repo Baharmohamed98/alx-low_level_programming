@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * _puts - Prints a string
- * @str: The string to print
- * Return: void
+ * main - check
+ *
+ * Return: Always 0.
  */
-
-void _Puts(char *str)
-
+int main(void)
 {
-	for (; *str != '\0'; str++)
-	{
-	_putchar(*str);
-	}
-	_putchar('\n');
+	char *str;
+	
+	str = " I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_putchar(str);
+	return (0);
 }
+
